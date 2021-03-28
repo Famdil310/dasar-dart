@@ -1,0 +1,14 @@
+  Do
+    Output("Masukkan nilai (0-100):")
+    Input(nilai)
+    If(nilai<0 Or nilai>100)
+      Output("Data salah, silahkn ulangi lagi")
+    End if
+  While(nilai<0 or nilai>100)
+  
+  If(nilai>=60) Then
+    Output("LULUS")
+  Else
+    Output("Coba lagi tahun depan")
+  End if
+END

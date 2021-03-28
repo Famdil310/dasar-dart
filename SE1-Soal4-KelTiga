@@ -1,0 +1,14 @@
+Input(i) {awalan}
+
+Input(j) {akhiran}
+
+
+Do
+  if (i mod 3 = 0) Then
+    Output(i)
+  End if
+  
+  i <- i+1
+While(i <= j)
+
+END

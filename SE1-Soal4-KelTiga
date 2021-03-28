@@ -1,0 +1,10 @@
+Input(k)
+
+For (i <- 1; i <= k ; i++)
+  For(j <- 1 ; j<=i ; j++)
+    Output("*")
+  End For
+  Output("\n")
+ End For
+ 
+END

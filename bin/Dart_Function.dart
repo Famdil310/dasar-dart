@@ -8,11 +8,12 @@ double luas segiempat(double panjang, double lebar){
     print("hello penonton!");
   }
 
-  main(List<String> arguments){}
+  main(List<String> arguments) {
     double p, l, luas;
+  }
 
   p = double.tryParse(stdin.readLineSync());
   l = double.tryParse(stdin.readLineSync());
 
-  print(luas_segitiga(p, l));
+  print(luas_segitiga(p+l));
 }
